@@ -130,3 +130,138 @@
     border: 2px solid #fff;
     margin-left: 16px;
 }
+
+/* Notes section styles */
+.notes-section {
+    margin: 71px auto;
+}
+
+.notes-section-heading {
+    color: var(--dark-1);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.notes-section-subheading {
+    color: var(--dark-2);
+    text-align: center;
+}
+
+.notes-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+.note-card {
+    width: 25%;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    /* border:  2px solid #000; */
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    padding: 69.5px 24px 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.note-card img {
+    max-width: 60px;
+    align-self: center;
+}
+
+.notes-logo {
+    background: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    padding: 14px;
+}
+
+.note-card-heading {
+    color: var(--dark-1);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 16px 0;
+    line-height: 29px;
+}
+
+/* Brain section styles */
+.brain-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 120px;
+}
+
+.brain-solution {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.brain-heading {
+    color: var(--dark-1);
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 16px 0;
+    line-height: 58px;
+}
+
+.brain-description {
+    max-width: 480px;
+    color: var(--dark-2);
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.brain-features {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.brain-features p {
+    color: var(--dark-1);
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.brain-checkcircle {
+    max-width: 20px;
+    max-height: 20px;
+    margin-right: 6px;
+}
+
+/* Think section styles */
+.think-section {
+    background-color: rgba(247, 246, 242, 1);
+    text-align: center;
+    padding: 80px 0;
+    margin-bottom: 120px;
+    border-radius: 12px;
+}
+
+.think-heading {
+    color: var(--dark-1);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.think-subheading {
+    color: var(--dark-2);
+    max-width: 550px;
+    margin: 16px auto 24px;
+    line-height: 24px;
+}
+
+.think-subheading2 {
+    color: var(--dark-2);
+    margin-top: 16px;
+}
