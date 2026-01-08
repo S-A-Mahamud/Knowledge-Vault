@@ -7,12 +7,21 @@
 
 :root {
     --primary-color: rgba(70, 145, 101, 1);
+    --dark-1: rgba(0, 25, 49, 1);
+    --dark-2: rgba(98, 115, 130, 1);
 }
+
+/* Font inter */
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
 
 /* Container size */
 .container {
     width: 100%;
-    max-width: 1360px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -35,7 +44,7 @@
     padding: 16px 0;
 }
 
-.nav-links  {
+.nav-links {
     display: flex;
     align-items: center;
     gap: 32px;
@@ -49,4 +58,75 @@
     text-decoration: none;
     color: #000;
     font-weight: 500;
+}
+
+/* Banner/Hero section styles */
+.banner-section {
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 115.5px 0 179.5px;
+    /* gap: 24px; */
+}
+
+.early-access {
+    /* max-width: 229px; */
+    background-color: #fff;
+    padding: 9.5px 12px;
+    border-radius: 1000px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: auto;
+
+}
+
+.banner-content h1 {
+    margin: 16px 0;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 84px;
+}
+
+.banner-content-heading {
+    color: #fff;
+}
+
+.banner-content-heading2 {
+    color: var(--primary-color);
+}
+
+.banner-content p {
+    font-size: 1.12rem;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.fa-arrow-right {
+    margin-left: 10px;
+}
+
+.fa-play {
+    margin-right: 10px;
+}
+
+.btn-secondary1 {
+    padding: 16.5px 16px;
+}
+
+.btn-secondary2 {
+    padding: 15px 16px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-left: 16px;
 }
