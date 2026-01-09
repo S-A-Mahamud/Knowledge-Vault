@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* Global css variables */
 :root {
     --primary-color: rgba(70, 145, 101, 1);
     --dark-1: rgba(0, 25, 49, 1);
@@ -21,7 +22,7 @@
 /* Container size */
 .container {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1350px;
     margin: 0 auto;
 }
 
@@ -46,7 +47,6 @@
     transform: translateY(-2px);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
 }
-
 
 /* Navbar container styles */
 .navbar-container {
@@ -75,7 +75,7 @@
 /* Banner/Hero section styles */
 .banner-section {
     background-image: url("../assets/hero-bg.png");
-    width: 100%;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -90,7 +90,6 @@
 }
 
 .early-access {
-    /* max-width: 229px; */
     background-color: #fff;
     padding: 9.5px 12px;
     border-radius: 1000px;
@@ -181,10 +180,8 @@
 
 .note-card {
     width: 25%;
-    /* height: 300px; */
     display: flex;
     flex-direction: column;
-    /* border:  2px solid #000; */
     border-radius: 8px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
     padding: 69.5px 24px 20px;
@@ -300,13 +297,6 @@ footer {
     padding: 110px 0 120px;
 }
 
-.social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 36px;
-}
-
 .footer-links p {
     color: #fff;
     text-align: center;
@@ -315,13 +305,20 @@ footer {
     margin-bottom: 16px;
 }
 
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
 .social-icons i {
-    background-color: #fff;
-    border-radius: 50%;
-    padding: 5px;
-    cursor: pointer;
-    /* max-width: 20px; */
-    /* font-size: 1.2rem; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 12px;
+  background: #fff;
+  border-radius: 50%;
 }
 
 .footer-copyright {
